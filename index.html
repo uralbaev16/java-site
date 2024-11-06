@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript haqida</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-white text-lg font-bold">JavaScript Darslari</a>
+      <ul class="flex space-x-4">
+        <li><a href="#creator" class="text-white hover:text-gray-200">Yaratuvchisi</a></li>
+        <li><a href="#data-types" class="text-white hover:text-gray-200">Data Types</a></li>
+        <li><a href="#math-object" class="text-white hover:text-gray-200">Math Objekti</a></li>
+        <li><a href="#if-statement" class="text-white hover:text-gray-200">If Statement</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container mx-auto mt-20 p-4">
+
+    <!-- Creator Section -->
+    <section id="creator" class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-2xl font-bold mb-2">JavaScript Yaratuvchisi</h2>
+      <p>JavaScript dasturlash tilini Brendan Eich yaratgan. U 1995-yilda NetScape korporatsiyasida ishlab chiqarilgan va dastlab "Mocha" deb nomlangan.</p>
+    </section>
+
+    <!-- Data Types Section -->
+    <section id="data-types" class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-2xl font-bold mb-2">Data Types (Ma'lumot Turlari)</h2>
+      <ul class="list-disc list-inside">
+        <li><span class="font-bold">String</span>: Matnli qiymatlar. Misol: <code>"Salom, dunyo!"</code></li>
+        <li><span class="font-bold">Number</span>: Raqamli qiymatlar. Misol: <code>42</code> yoki <code>3.14</code></li>
+        <li><span class="font-bold">Boolean</span>: Mantiqiy qiymatlar, faqat <code>true</code> yoki <code>false</code> qiymatlari bo'ladi.</li>
+        <li><span class="font-bold">Undefined</span>: Qiymat hali belgilanmagan.</li>
+        <li><span class="font-bold">Null</span>: Bo'sh yoki yo'q qiymat.</li>
+        <li><span class="font-bold">Object</span>: Murakkab tuzilmalar, ma'lumotlarni birlashtirish uchun.</li>
+      </ul>
+    </section>
+
+    <!-- Math Object Section -->
+    <section id="math-object" class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-2xl font-bold mb-2">Math Objekti</h2>
+      <p><code>Math</code> obyekti matematik hisob-kitoblar uchun ko'plab foydali funksiyalarni o'z ichiga oladi.</p>
+      <ul class="list-disc list-inside">
+        <li><code>Math.PI</code>: π qiymati, ya'ni 3.14159...</li>
+        <li><code>Math.round()</code>: Raqamni yaxlitlaydi. Misol: <code>Math.round(4.7)</code> natijasi <code>5</code> bo'ladi.</li>
+        <li><code>Math.sqrt()</code>: Raqamning kvadrat ildizini topadi. Misol: <code>Math.sqrt(16)</code> natijasi <code>4</code> bo'ladi.</li>
+        <li><code>Math.random()</code>: 0 va 1 orasida tasodifiy raqam qaytaradi.</li>
+      </ul>
+    </section>
+
+    <!-- If Statement Section -->
+    <section id="if-statement" class="bg-white p-6 rounded-lg shadow-md mb-6">
+      <h2 class="text-2xl font-bold mb-2">If Statement</h2>
+      <p><code>if</code> operatori shartni tekshiradi va agar shart <code>true</code> bo'lsa, kod blokini bajaradi.</p>
+      <pre class="bg-gray-200 p-4 rounded">
+<code>let yosh = 20;
+if (yosh >= 18) {
+  console.log("Siz kattasiz.");
+} else {
+  console.log("Siz voyaga yetmagansiz.");
+}</code>
+      </pre>
+      <p>Yuqoridagi misolda, agar <code>yosh</code> 18 yoki undan katta bo'lsa, "Siz kattasiz." xabari chiqadi, aks holda "Siz voyaga yetmagansiz." xabari chiqadi.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4 mt-6 text-center">
+    <p>&copy; 2024 JavaScript haqida. Barcha huquqlar himoyalangan.</p>
+  </footer>
+
+</body>
+</html>
